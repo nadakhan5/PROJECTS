@@ -38,3 +38,56 @@ input
     background-color:skyblue;
     font-size:20px;
 }
+/* Calculator Container */
+.calc-container {
+    width: 300px;
+    height: auto;
+    margin: auto;
+    background-color: #f2f2f2;
+    border: 3px solid #3498db;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Input Fields */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: left;
+}
+
+/* Answer Display */
+#ans {
+    width: 80%;
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Clear Button */
+#clear {
+    width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Clear Button Hover Effect */
+#clear:hover {
+    background-color: #2980b9;
+}
